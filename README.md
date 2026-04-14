@@ -1,2 +1,105 @@
 # Itzel
 Información estudiantil sobre la cultura digital 
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentación: Educación en la Cultura Digital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+    section {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    p, li {
+      font-size: 20px;
+      max-width: 800px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "✔ ";
+    }
+    .slide1 { background: #2c3e50; color: white; }
+    .slide2 { background: #ecf0f1; }
+    .slide3 { background: #3498db; color: white; }
+    .slide4 { background: #f39c12; color: white; }
+    .slide5 { background: #27ae60; color: white; }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body><nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#importancia">Importancia</a>
+  <a href="#herramientas">Herramientas</a>
+  <a href="#retos">Retos</a>
+  <a href="#futuro">Futuro</a>
+</nav><section id="inicio" class="slide1">
+  <h1>Educación en la Cultura Digital</h1>
+  <p>Transformando el aprendizaje en la era tecnológica</p>
+  <p id="datos"></p>
+</section><script>
+  // ✏️ EDITA AQUÍ TUS DATOS
+  const nombre = "Tu nombre aquí";
+  const grupo = "Tu grupo";
+  const materia = "Tu materia";
+
+  document.getElementById("datos").innerHTML = `
+    <strong>Alumno:</strong> ${nombre} <br>
+    <strong>Grupo:</strong> ${grupo} <br>
+    <strong>Materia:</strong> ${materia}
+  `;
+</script><section id="importancia" class="slide2">
+  <h2>Importancia</h2>
+  <p>
+    La cultura digital permite a los estudiantes aprender de forma más rápida, acceder a información global y desarrollar habilidades tecnológicas esenciales.
+  </p>
+</section><section id="herramientas" class="slide3">
+  <h2>Herramientas Digitales</h2>
+  <ul>
+    <li>Plataformas educativas</li>
+    <li>Aplicaciones de estudio</li>
+    <li>Clases virtuales</li>
+    <li>Videos y recursos interactivos</li>
+  </ul>
+</section><section id="retos" class="slide4">
+  <h2>Retos</h2>
+  <ul>
+    <li>Distracciones en internet</li>
+    <li>Desigualdad en acceso a tecnología</li>
+    <li>Exceso de información</li>
+  </ul>
+</section><section id="futuro" class="slide5">
+  <h2>El Futuro</h2>
+  <p>
+    La educación seguirá evolucionando con inteligencia artificial, aprendizaje personalizado y nuevas tecnologías digitales.
+  </p>
+</section></body>
+</html>
